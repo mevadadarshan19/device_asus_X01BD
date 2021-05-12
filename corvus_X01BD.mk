@@ -23,14 +23,7 @@ TARGET_INCLUDE_STOCK_ARCORE := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := false
 endif
 
-#PALLADIUM-PROPS
-PRODUCT_PRODUCT_PROPERTIES += \
-	ro.palladiumdevice.maintainer=Darshan \
-	ro.palladiumdevice.cpu=SDM660 \
-	ro.palladiumdevice.display=6.26 \
-	ro.palladiumdevice.displaytype=IPS LCD PANEL \
-	ro.palladiumdevice.battery=5000mAh \
-	ro.palladiumdevice.camera=12MP+13MP+5MP
+
 
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
@@ -45,7 +38,7 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := palladium_X01BD
+PRODUCT_NAME := corvus_X01BD
 PRODUCT_DEVICE := X01BD
 PRODUCT_BRAND := asus
 PRODUCT_MODEL := ASUS_X01BDA
