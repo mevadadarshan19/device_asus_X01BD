@@ -5,8 +5,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/palladium_X01BD.mk
+    $(LOCAL_DIR)/corvus_X01BD.mk
 
 COMMON_LUNCH_CHOICES := \
-    palladium_X01BD-userdebug \
-    palladium_X01BD-user
+    corvus_X01BD-userdebug \
+    corvus_X01BD-user
